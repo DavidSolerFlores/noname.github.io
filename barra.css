@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Eliminar márgenes del body */
+    background-image: url("fons.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegurar que el body tenga al menos la altura de la ventana */
+}
+header {
+    background-color: #1b2b82;
+    color: white;
+    padding: 10px 0;
+    margin: 0; /* Asegurar que el header no tenga márgenes */
+}
+#barraNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+#barraNav > div:first-child {
+    justify-content: 20
+}
+#barraNav img {
+    height: 80px;
+    margin-right: 10px;
+    
+}
+#barraNav div {
+    display: flex;
+    align-items: center;
+}
+#barraNav #enlaces a {
+    align-items: center;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+#barraNav a:hover {
+    opacity: 0.8;
+}
+#barraNav #espacio a {
+    align-items: center;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+#barraNav #enlaces {
+    position: absolute;
+    right: 100px;
+}
+
+.contenido {
+    background-color: white;
+    margin: 50px; /* Márgenes arriba y a los lados */
+    padding: 20px; /* Opcional: para agregar un poco de padding interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: para agregar una sombra alrededor del div */
+    border-radius: 8px; /* Opcional: para redondear los bordes */
+    flex: 1; /* Asegurar que el contenido ocupe el espacio disponible */
+}
+
+footer {
+    margin-top: 10px ;
+    background-color: #5e5e5e;
+    padding: 0;
+    text-align: center;
+}
+footer h1 {
+    text-align: center;
+    font-size: 17px;
+}
+#patrocinadores #logos {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaciado entre las imágenes */
+}
+#patrocinadores #logos img {
+    max-height: 50px; /* Ajustar la altura máxima de las imágenes */
+    object-fit: contain; /* Ajustar el contenido dentro del contenedor */
+    margin: 10px;
+}

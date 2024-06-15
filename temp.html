@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLUB CICLISTA FARNERS - Pàgina web oficial</title>
+    <link rel="shortcut icon" href="SinFondo.png" type="image/x-icon">
+   <style>
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0; /* Eliminar márgenes del body */
+    background-image: url("ermita.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegurar que el body tenga al menos la altura de la ventana */
+
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("ermita.jpg");
+    background-size: cover;
+    background-position: center top; /* Recorta un poco desde la parte superior */
+    /* Otros estilos... */
+
+
+}
+header {
+    background-color: #1b2b82;
+    color: white;
+    padding: 10px 0;
+    margin: 0; /* Asegurar que el header no tenga márgenes */
+}
+#barraNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+#barraNav > div:first-child {
+    justify-content: 20
+}
+#barraNav img {
+    height: 80px;
+    margin-right: 10px;
+    
+}
+#barraNav div {
+    display: flex;
+    align-items: center;
+}
+#barraNav #enlaces a {
+    align-items: center;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+#barraNav a:hover {
+    opacity: 0.8;
+}
+#barraNav #espacio a {
+    align-items: center;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+#barraNav #enlaces {
+    position: absolute;
+    right: 100px;
+}
+
+.contenido {
+    background-color: white;
+    margin: 50px; /* Márgenes arriba y a los lados */
+    padding: 20px; /* Opcional: para agregar un poco de padding interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: para agregar una sombra alrededor del div */
+    border-radius: 8px; /* Opcional: para redondear los bordes */
+    flex: 1; /* Asegurar que el contenido ocupe el espacio disponible */
+}
+
+footer {
+    background-color: #5e5e5e;
+    padding: 20px;
+    text-align: center;
+}
+footer h1 {
+    text-align: center;
+    font-size: 17px;
+}
+#patrocinadores #logos {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaciado entre las imágenes */
+}
+#patrocinadores #logos img {
+    max-height: 50px; /* Ajustar la altura máxima de las imágenes */
+    object-fit: contain; /* Ajustar el contenido dentro del contenedor */
+    margin: 10px;
+}
+   </style>
+</head>
+<body>
+    
+    <header>
+        <div id="barraNav">
+            <div id="espacio">
+                <a href="index.html"><img src="Escut2.jpg"  alt="Escut del equip">
+                <span>CLUB CICLISTA FARNERS</span></a>
+            </div>
+            <div id="enlaces">
+                <a href="membres.html">Membres</a>
+                <a href="info.html">Informació</a>
+                <a href="noumembre.html">Com fer-se membre</a>
+                <a href="escola.html">Escola de ciclisme</a>
+                <a href="noticies.html">Notícies</a>
+                <a href="https://www.instagram.com/ccfarners/">Instagram</a>
+                <a href="contacte.html">Contacte</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenido">
+        <h1>Proba</h1>
+      
+    </div>
+
+    <footer id="patrocinadores">
+        <h1>Patrocinadors</h1>
+        <div id="logos">
+        <a href="https://comercialpuig.com/"><img src="comercialPuig.webp" alt="Comercial Puig"></a>
+        <a href="http://www.countrybikes.cat/"><img src="countryBikes.gif" alt="countryBikes"></a>
+        <a href="http://www.clinicadentalargentus.com/es/clinica-dental-argentus.aspx/"><img src="Argentus.png" alt="Argentus Clinica dental"></a>
+        </div>
+    </footer>
+</body>
+</html>
